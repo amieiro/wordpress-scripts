@@ -48,15 +48,17 @@ php scrape_translations_plugins.php [options]
 
 ### Options
 
-| Option | Description | Default |
-|--------|-------------|---------||
-| `--author=<slug>` | Developer/author slug | `automattic` |
-| `--format=<format>` | Output format: `console`, `json`, `csv` | `console` |
-| `--output=<file>` | Save output to file (for json/csv formats) | stdout |
-| `--limit=<n>` | Process only the first n plugins | all |
-| `--lang=<slug>` | Language slug for translations | `es` |
-| `--no-translations` | Skip fetching translation stats (faster) | false |
-| `--help`, `-h` | Show help message | - |
+```bash
+| Option              | Description                                | Default      |
+|---------------------|--------------------------------------------|--------------|
+| `--author=<slug>`   | Developer/author slug                      | `automattic` |
+| `--format=<format>` | Output format: `console`, `json`, `csv`    | `console`    |
+| `--output=<file>`   | Save output to file (for json/csv formats) | stdout       |
+| `--limit=<n>`       | Process only the first n plugins           | all          |
+| `--lang=<slug>`     | Language slug for translations             | `es`         |
+| `--no-translations` | Skip fetching translation stats (faster)   | false        |
+| `--help`, `-h`      | Show help message                          | -            |
+```
 
 ### Examples
 
